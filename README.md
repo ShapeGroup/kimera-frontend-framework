@@ -1,4 +1,4 @@
-![](https://scontent-mxp1-1.xx.fbcdn.net/v/t31.0-8/20157088_1900998406808623_8675654293744808247_o.jpg?_nc_cat=0&oh=01b8a690e97ad92e2374056951b1f8a0&oe=5BA37F85)
+![kimera vision 2.x](https://scontent-mxp1-1.xx.fbcdn.net/v/t1.0-9/36825349_2069181723323623_5071070102590324736_n.jpg?_nc_cat=0&oh=9c1c788180afba5b8c9ef605aad18c45&oe=5BD4F408)
 
 ### WELCOME TO KIMERA V.2.X
 
