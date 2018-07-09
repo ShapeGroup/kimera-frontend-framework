@@ -1,0 +1,692 @@
+
+
+/*
+//
+//
+//	THEME | Kimera 2.x
+//
+//
+*/
+
+
+
+
+/*
+//	IMPORT FONTS
+*/
+
+@import url('https://fonts.googleapis.com/css?family=Titillium+Web');
+@import url('https://fonts.googleapis.com/css?family=?family=Lato:300');
+
+
+/*
+//	Theme vars
+*/
+
+@tonal_heavyblack: 	#000;
+@tonal_dark:		#232323;
+@tonal_gray:		#B4B4B5;
+@tonal_paper:		#EEEEEE;
+@tonal_white:		#FFF;
+@text_color: 		#554F61;
+@ui_on: 			#554F61;
+@ui_off:			#EEEEEE;
+
+@fontText: "Titillium Web", sans-serif;
+@fontCode: "Lato", sans-serif;
+
+@fontSize: 14px;
+
+@lineheight: 0.3em;
+
+@radius: 4px;
+
+@opacity: 0.75;
+
+@blur: 3px;
+
+@space: 12px;
+
+
+
+/*
+//	basic elements
+*/
+
+
+body
+{
+	background: @tonal_white;
+	color: @text_color;
+}
+
+section
+{
+	margin-bottom: @space*6;
+}
+
+pre, code
+{
+	padding: @space*2;
+	border-radius: @radius*2;
+	margin-bottom: @space*3;	
+	-moz-tab-size: 4;
+	-o-tab-size: 4;
+	tab-size: 4;
+}
+
+pre, blockquote
+{
+	font-family: @fontText;
+	background: @tonal_paper;
+	color: @text_color;
+}
+code
+{
+	font-family: @fontCode;
+	font-size: @fontSize/1.1;
+	letter-spacing: 2px;
+	line-height: @fontSize*1.5 !important;
+	background: @text_color;
+	color: @tonal_paper;
+}
+
+
+table
+{
+	-webkit-border-radius: @radius*2;
+	-moz-border-radius: @radius*2;
+	border-radius: @radius*2;
+	overflow: hidden;
+}
+
+thead td
+{
+	color:  @tonal_gray;
+	background:  @ui_on;
+	padding: @space !important;
+	font-weight: bold;
+}
+
+tbody tr:nth-child(odd)
+{
+	background: #F9F9F9;
+}
+tbody tr:nth-child(even)
+{
+	background: @tonal_paper;
+}
+tbody td
+{
+	color:  @tonal_dark;
+	padding-left: @space !important;
+	padding-right: @space !important;
+	transition-duration: .2s;
+}
+
+tbody tr:hover
+{
+	transition-duration: .2s;
+	background: #DBDBDB;
+}
+tbody td:hover
+{
+	background: #D4D4D4;
+	color:  @tonal_dark;
+}
+
+tfoot td
+{
+	background: #D4D4D4;
+	color:   @tonal_dark;
+	padding: @space*3 !important;
+}
+
+
+
+/*
+//	text elements
+*/
+
+
+
+.text+.text
+{
+	margin-top: @space*3 !important;
+}
+
+
+.text>a, li *, table *, p:not(.button)
+{
+	font-family: @fontText;
+	font-size: @fontSize;
+	line-height: @lineheight*5 !important;
+	letter-spacing: @fontSize/10;
+}
+
+p>a
+{
+	color: @ui_on !important;
+	background: @tonal_paper;
+	padding: 0 @space/2 0 @space/2;
+	border-radius: @radius*2;
+}
+
+b,strong 
+{
+	font-weight: blod;
+}
+
+h1, h2, h3, h4, h5, h6
+{
+	font-weight: 100;
+	font-family: @fontText;
+}
+h3
+{
+	letter-spacing: @fontSize/6;
+	font-size: @fontSize*1.8;
+	background: @ui_on;
+	color: @tonal_white;
+	padding: @space/1.8 @space/.8 @space/2 @space/.8;
+	border-radius: @radius*2;
+	margin-bottom: @space*1.7 !important;
+}
+h4
+{
+	letter-spacing: @fontSize/6;
+	font-size: @fontSize*1.3;
+	font-weight: 500;
+	color: @ui_on !important;
+	border-left: 2px dotted @ui_on;
+	padding-left: @space;
+}
+
+hr
+{
+	margin: @space*2 0 @space*2 0;
+	border: 1px solid @tonal_paper;
+	border-radius: @radius*2;
+}
+
+
+dl,dt,dd
+{
+	vertical-align: middle;
+	text-align: left;
+	font-family: @fontText;
+	color:  @text_color;
+	padding: @space*2;
+	border: 1px solid @tonal_paper;
+
+}
+
+
+/*
+//	loader
+*/
+
+
+
+.box-spinner
+{
+	background-color: @tonal_white;
+}
+.overlapping
+{
+	background: rgba(000, 000, 000, 0.35);
+}
+
+
+
+
+
+/*
+//	off-canvas
+*/
+
+
+*[class*="off-canvas-side"]
+{
+	background-color: @tonal_paper;
+}
+
+
+
+
+/*
+//	peak
+*/
+
+
+
+
+.peak>*
+{
+	padding: @space/1.4 @space @space @space;
+	background: @tonal_paper;
+
+	-webkit-border-radius: @radius*3;
+	-moz-border-radius: @radius*3;
+	border-radius: @radius*3;
+
+	right: 20px;
+	bottom: 20px;
+}
+
+
+
+
+/*
+//	Ui > General
+*/
+
+
+
+*[class^="button"],
+.button-checkbox,
+.button-radio,
+.button-date,
+.button-range,
+.button-number,
+.button-file,
+.button-option,
+.button-select,
+a.button,
+button, 
+label,
+input,
+textarea
+{
+	/*weight*/
+	font-family: @fontText;
+	font-size: @fontSize !important;
+	padding: @space*1.4 @space*2.5;
+
+	/*color*/
+	color:  @text_color;
+	background: @ui_off;
+	border: 1px solid @tonal_gray;
+
+	/*beauty*/
+	-webkit-border-radius: @radius*2;
+	-moz-border-radius: @radius*2;
+	border-radius: @radius*2;
+}
+
+
+.button-date:hover,
+.button-number:hover,
+.button-file:hover,
+.button-option:hover,
+.button-select:hover,
+a.button:hover,
+button:hover, 
+input:hover
+{
+	/*color*/
+	color:  @tonal_paper;
+	background: @ui_on;
+	border-color: @ui_on;
+}
+
+
+.button-checkbox:hover,
+.button-radio:hover,
+input[type="text"]:hover
+{
+	/*color*/
+	color:  @text_color;
+	background: @tonal_paper;
+	border-color:@tonal_gray;
+}
+
+
+/*
+//	Ui > checkbox & radio
+*/
+
+
+.button-checkbox>div,
+.button-radio>div
+{
+
+	/*weight*/
+	width: @fontSize;
+	height: @fontSize;
+
+	/*color*/
+	background: @tonal_paper/1.2;
+
+	/*beauty*/
+	-webkit-border-radius: @radius;
+	-moz-border-radius: @radius;
+	border-radius: @radius;
+}
+
+.button-checkbox>input[type="checkbox"]:checked+div,
+.button-radio>input[type="radio"]:checked+div
+{
+	background: @ui_on !important;
+}
+
+
+
+/*
+//	Ui > number
+*/
+
+
+
+.button-number>a:first-child
+{
+	padding: 0 @space;
+	margin: @space -@space @space @space !important;
+	border-right: @tonal_dark;
+}
+
+.button-number>a:last-child
+{
+	padding: 0 @space;
+	margin: @space @space @space -@space !important;
+	border-left: @tonal_dark;
+}
+
+
+/*
+//	Ui > date
+*/
+
+
+.calendar
+{
+	width: 450px;
+	-webkit-border-radius: @radius*4;
+	-moz-border-radius: @radius*4;
+	border-radius: @radius*4;
+	overflow: hidden;
+}
+
+.calendarHead
+{
+	background: @tonal_dark;
+	color: @tonal_white;
+	padding: @space*4;
+}
+.calendarHead .cMonth
+{
+	width: 108px !important;
+	font-size: 25px;
+}
+.calendarHead .cyear
+{
+	width: 75px !important;
+	font-size: 19px;
+}
+.calendarMonth,
+.calendarweek
+{
+	background: @tonal_dark;
+	padding: @space;
+}
+.calendarDay,
+.calendarDay p
+{
+	padding: @space;
+	color: @tonal_dark;
+	background: @tonal_paper;
+	-webkit-border-radius: @radius;
+	-moz-border-radius: @radius;
+	border-radius: @radius;
+	overflow: hidden;
+}
+.calendarDay p:hover,
+.calendarDay .deyselected
+{
+	color: @tonal_white;
+	background:  @ui_on;
+}
+
+
+/*
+//	Ui > ramge
+*/
+
+
+.range_value,
+.range_slider
+{
+	height: @fontSize*1.4 !important;
+	padding: 0px;
+	border: 1px;
+
+	-webkit-border-radius: @radius !important;
+	-moz-border-radius: @radius !important;
+	border-radius: @radius !important;
+
+	background: @tonal_gray !important;
+}
+
+.range_value
+{
+	color:  @tonal_white !important;
+	margin-right: -4px;
+}
+.range_slider
+{
+	margin: 0 4px 0 -4px !important;
+}
+
+
+input[type=range]::-webkit-slider-thumb
+{
+	width: @fontSize*1.4;
+	height: @fontSize;
+
+	border: 2px solid @tonal_paper;
+	background: @ui_on;
+
+	-webkit-border-radius: @radius*1.3;
+	-moz-border-radius: @radius*1.3;
+	border-radius: @radius*1.3;
+}
+
+input[type=range]::-moz-range-thumb
+{
+	width: @fontSize*1.4;
+	height: @fontSize;
+
+	border: 2px solid @tonal_paper;
+	background: @ui_on;
+
+	-webkit-border-radius: @radius*1.3;
+	-moz-border-radius: @radius*1.3;
+	border-radius: @radius*1.3;
+}
+
+input[type=range]::-ms-thumb
+{
+
+	width: @fontSize*1.4;
+	height: @fontSize;
+
+	border: 2px solid @tonal_paper;
+	background: @ui_on;
+
+	-webkit-border-radius: @radius*1.3;
+	-moz-border-radius: @radius*1.3;
+	border-radius: @radius*1.3;
+}
+
+
+
+/*
+//	Nav
+*/
+
+
+/*nav > wide top*/
+
+nav.wide
+{
+	font-family: @fontText;
+	font-size: @fontSize;
+
+	border: 1px solid @tonal_paper;
+	background: @tonal_paper;
+
+	-webkit-border-radius: @radius*2;
+	-moz-border-radius: @radius*2;
+	border-radius: @radius*2;
+}
+
+nav.wide>ul>li>a,
+nav.wide>ul>li>p
+{
+	padding: @space*2;
+	font-size: @fontSize*1.2;
+	color: @tonal_dark;
+
+	-webkit-border-radius: @radius*2;
+	-moz-border-radius: @radius*2;
+	border-radius: @radius*2;
+}
+
+nav.wide>ul>li>a:hover,
+nav.wide>ul>li>p:hover
+{
+	color: @tonal_white;
+	background: @ui_on;
+}
+
+/*nav > side */
+
+nav.side-left,
+nav.side-right
+{
+	font-family: @fontText;
+	font-size: @fontSize;
+	color: @fontText;
+
+	border: 1px solid @tonal_paper;
+	background: @tonal_paper;
+
+	-webkit-border-radius: @radius*2;
+	-moz-border-radius: @radius*2;
+	border-radius: @radius*2;
+	overflow: hidden;
+}
+
+nav.side-left>ul>li>a,
+nav.side-left>ul>li>p,
+nav.side-right>ul>li>a,
+nav.side-right>ul>li>p
+{
+	line-height: @fontSize;
+	font-size: @fontSize;
+	padding: @space*1.5;
+}
+
+nav.side-left>ul>li>a:hover,
+nav.side-left>ul>li>p:hover,
+nav.side-right>ul>li>a:hover,
+nav.side-right>ul>li>p:hover
+{
+	color: @tonal_white;
+	background: @ui_on;
+}
+
+
+
+/* accordion */
+
+.tabs-linear,
+.tabs-vertical 
+{
+	border: 1px solid @tonal_paper;
+
+	-webkit-border-radius: @radius*2;
+	-moz-border-radius: @radius*2;
+	border-radius: @radius*2;
+	overflow:hidden;
+}
+.tabs-vertical .title,
+.tabs-linear>nav
+{
+	font-family: @fontText;
+	font-size: @fontSize;
+	background: @tonal_paper;
+}
+
+.tabs-linear>nav>span
+{
+	color: @tonal_gray;
+	padding: @space;
+}
+
+.tabs-vertical .title,
+.tabs-linear>nav>a
+{
+	padding:@space @space*2 @space @space*2;
+	background: @tonal_paper;
+	color: @fontText;
+}
+
+.tabs-vertical ._ACTIVE_,
+.tabs-linear>nav>a._ACTIVE_
+{
+	color: @tonal_white;
+	background: @ui_on;
+}
+
+/*cards*/
+
+.card
+{
+	padding: @space*1.5;
+	border: 1px solid @tonal_paper;
+
+	-webkit-border-radius: @radius*2.2;
+	-moz-border-radius: @radius*2.2;
+	border-radius: @radius*2.2;
+}
+.card .image-cropping
+{
+	-webkit-border-radius: @radius*2;
+	-moz-border-radius: @radius*2;
+	border-radius: @radius*2;
+}
+
+
+
+
+.tabs-linear
+{
+
+}
+
+
+
+/*
+//	Ui > General
+*/
+
+.demostyle /*this is a simple demo*/
+{
+	padding: @space;
+	padding: 0px;
+	color:  @tonal_white !important;
+	background: @tonal_gray !important;
+
+
+	-webkit-border-radius: @radius !important;
+	-moz-border-radius: @radius !important;
+	border-radius: @radius !important;
+}
+
+.demostyle  *{
+	/*this is a simple demo*/
+	list-style: none;
+	margin-right: 0;
+	padding: 0;
+}
