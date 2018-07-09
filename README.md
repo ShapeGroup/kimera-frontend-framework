@@ -1,6 +1,6 @@
 ![](https://scontent-mxp1-1.xx.fbcdn.net/v/t31.0-8/20157088_1900998406808623_8675654293744808247_o.jpg?_nc_cat=0&oh=01b8a690e97ad92e2374056951b1f8a0&oe=5BA37F85)
 
-###WELCOME TO KIMERA V.2.X
+### WELCOME TO KIMERA V.2.X
 
 Kimera 2.x is a simple and alternative front-end web design framework.
 
@@ -12,7 +12,7 @@ Kimera 2.x is a simple and alternative front-end web design framework.
 &nbsp;
 ---
 &nbsp;
-###Features
+### Features
 
 - main-canvas / off-canvas-side / off-canvas-overlay;
 - themifized - flanked to less / sass;
@@ -39,7 +39,7 @@ _stay tuned for update_
 &nbsp;
 ---
 &nbsp;
-####Main structure:
+#### Main structure:
 &nbsp;
 Head:
 	
