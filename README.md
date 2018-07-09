@@ -45,11 +45,11 @@ Head:
 	
 	<head>
 
-		<!-- METATAG -->
-		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+		<!-- MOBILE META -->
+		<meta name="viewport" content="target-densitydpi=medium-dpi, width=device-width, initial-scale=0.8, minimum-scale=0.8, maximum-scale=1.2, user-scalable=yes, minimal-ui">
+		<meta name="apple-mobile-web-app-status-bar-style" content="#231932">
 		<meta name="apple-mobile-web-app-capable" content="yes">
-		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+		<meta name="mobile-web-app-capable" content="yes">
 
 
 		<!-- load kimera 2.0 -->
