@@ -5,8 +5,8 @@
 Kimera 2.x is a simple and alternative front-end web design framework.
 
 
-> [Quick Wiki Class](https://github.com/ShapeGroup/Kimera-css-framework-2.X/wiki/wiki-classes "Quick Wiki Class")
-> [Facebook Fanpage](https://www.facebook.com/KimeraFramework/ "fanpage")
+> [Quick Wiki Class](https://github.com/ShapeGroup/Kimera-css-framework-2.X/wiki/wiki-classes "Quick Wiki Class") | 
+> [Facebook Fanpage](https://www.facebook.com/KimeraFramework/ "fanpage") | 
 > [Official Site - under costruction](xxx "Official Website")
 
 &nbsp;
@@ -25,7 +25,8 @@ Kimera 2.x is a simple and alternative front-end web design framework.
 - integrated dynamic Ui system;
 - full elastic design;
 - full expandible;
-- No aggressive pre-packaged... The designer is you.;
+- No aggressive css & html pre-packaged...
+The designer is you.
 &nbsp;
 ---
 &nbsp;
