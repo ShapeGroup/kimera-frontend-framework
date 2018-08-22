@@ -27,18 +27,23 @@ var kimera = (function kimera() {
 
 
 
-	$(document).ready( function()
+	/*
+	//	Mobile device presets
+	*/
+	$(document).ready( function() { 
+/*
+	if(/(android|bb\d+|meego).+mobile|avantgo|bada\/|blackberry|blazer|compal|elaine|fennec|hiptop|iemobile|ip(hone|od)|ipad|iris|kindle|Android|Silk|lge |maemo|midp|mmp|netfront|opera m(ob|in)i|palm( os)?|phone|p(ixi|re)\/|plucker|pocket|psp|series(4|6)0|symbian|treo|up\.(browser|link)|vodafone|wap|windows (ce|phone)|xda|xiino/i.test(navigator.userAgent) 
+		|| /1207|6310|6590|3gso|4thp|50[1-6]i|770s|802s|a wa|abac|ac(er|oo|s\-)|ai(ko|rn)|al(av|ca|co)|amoi|an(ex|ny|yw)|aptu|ar(ch|go)|as(te|us)|attw|au(di|\-m|r |s )|avan|be(ck|ll|nq)|bi(lb|rd)|bl(ac|az)|br(e|v)w|bumb|bw\-(n|u)|c55\/|capi|ccwa|cdm\-|cell|chtm|cldc|cmd\-|co(mp|nd)|craw|da(it|ll|ng)|dbte|dc\-s|devi|dica|dmob|do(c|p)o|ds(12|\-d)|el(49|ai)|em(l2|ul)|er(ic|k0)|esl8|ez([4-7]0|os|wa|ze)|fetc|fly(\-|_)|g1 u|g560|gene|gf\-5|g\-mo|go(\.w|od)|gr(ad|un)|haie|hcit|hd\-(m|p|t)|hei\-|hi(pt|ta)|hp( i|ip)|hs\-c|ht(c(\-| |_|a|g|p|s|t)|tp)|hu(aw|tc)|i\-(20|go|ma)|i230|iac( |\-|\/)|ibro|idea|ig01|ikom|im1k|inno|ipaq|iris|ja(t|v)a|jbro|jemu|jigs|kddi|keji|kgt( |\/)|klon|kpt |kwc\-|kyo(c|k)|le(no|xi)|lg( g|\/(k|l|u)|50|54|\-[a-w])|libw|lynx|m1\-w|m3ga|m50\/|ma(te|ui|xo)|mc(01|21|ca)|m\-cr|me(rc|ri)|mi(o8|oa|ts)|mmef|mo(01|02|bi|de|do|t(\-| |o|v)|zz)|mt(50|p1|v )|mwbp|mywa|n10[0-2]|n20[2-3]|n30(0|2)|n50(0|2|5)|n7(0(0|1)|10)|ne((c|m)\-|on|tf|wf|wg|wt)|nok(6|i)|nzph|o2im|op(ti|wv)|oran|owg1|p800|pan(a|d|t)|pdxg|pg(13|\-([1-8]|c))|phil|pire|pl(ay|uc)|pn\-2|po(ck|rt|se)|prox|psio|pt\-g|qa\-a|qc(07|12|21|32|60|\-[2-7]|i\-)|qtek|r380|r600|raks|rim9|ro(ve|zo)|s55\/|sa(ge|ma|mm|ms|ny|va)|sc(01|h\-|oo|p\-)|sdk\/|se(c(\-|0|1)|47|mc|nd|ri)|sgh\-|shar|sie(\-|m)|sk\-0|sl(45|id)|sm(al|ar|b3|it|t5)|so(ft|ny)|sp(01|h\-|v\-|v )|sy(01|mb)|t2(18|50)|t6(00|10|18)|ta(gt|lk)|tcl\-|tdg\-|tel(i|m)|tim\-|t\-mo|to(pl|sh)|ts(70|m\-|m3|m5)|tx\-9|up(\.b|g1|si)|utst|v400|v750|veri|vi(rg|te)|vk(40|5[0-3]|\-v)|vm40|voda|vulc|vx(52|53|60|61|70|80|81|83|85|98)|w3c(\-| )|webc|whit|wi(g |nc|nw)|wmlb|wonu|x700|yas\-|your|zeto|zte\-/i.test(navigator.userAgent.substr(0,4)))
 	{ 
+	*/
 
-		if(parseInt($(window).width()) <= 900)
-		{
-			$(".main-canvas").wrap("<mobile-viewport/>"),
-			$("html, body").css("height", window.height() );
-		};
+		$(".main-canvas").wrap("<mobile-scroller/>");
+
+		var H = window.height();
+		$("html body").style("position: absolute; overflow:hidden !important; width:100%; height:"+H+"px" );
+	//}
 
 	});
-
-
 
 	/*
 	//	loader
@@ -393,7 +398,6 @@ var kimera = (function kimera() {
 
 
 
-
 	/*
 	// nav
 	*/
@@ -495,7 +499,20 @@ var kimera = (function kimera() {
 	*/
 	
 
+	$(document).ready( function(){ iconized(); });
 
+	function iconized() {
+
+		$('a.button>img, label>img, button>img').each(function(){
+
+			if(!$(this).parent().parent().hasClass("button-group"))
+			{
+				$(this).parent().addClass("inconized");
+			};
+
+		});
+
+	};
 
 	$(document).ready( function(){ button(); });
 
@@ -516,7 +533,7 @@ var kimera = (function kimera() {
 					boxFx = '<span class="box-fx"></span>',
 					btnType =" ",
 					isSelect = el.hasClass("button-select"),
-					isOption = el.hasClass("button-option"),
+					isOption = el.hasClass("button-dropdown"),
 					isNumber = el.hasClass("button-number"),
 					isRange = el.hasClass("button-range"),
 					isDate = el.hasClass("button-date"),
@@ -662,7 +679,7 @@ var kimera = (function kimera() {
 
 
 					// add html structure - wrap for Fx
-					el.append('<div class="box-fx"><div class="calendar"><div class="calendarHead"><div><a class="cPrevMonth">&#10096;&#10096;</a><p class="cMonth">JANUARY</p><a class="cNextMonth">&#10097;&#10097;</a></div><div><a class="cPrevYear">&#10096;&#10096;</a><p class="cYear">2017</p><a class="cNextYear">&#10097;&#10097;</a></div></div><div class="calendarselector"><div class="calendarweek"><div class="grid-linear"><div class="box 14-14-14"><p>Lun</p></div><div class="box 14-14-14"><p>Mar</p></div><div class="box 14-14-14"><p>Mer</p></div><div class="box 14-14-14"><p>Gio</p></div><div class="box 14-14-14"><p>Ven</p></div><div class="box 14-14-14"><p>Sab</p></div><div class="box 14-14-14"><p>Dom</p></div></div></div><div class="calendarDay"><div class="grid-linear"><div class="box 14-14-14"><p>01</p></div><div class="box 14-14-14"><p>02</p></div><div class="box 14-14-14"><p>03</p></div><div class="box 14-14-14"><p>04</p></div><div class="box 14-14-14"><p>05</p></div><div class="box 14-14-14"><p>06</p></div><div class="box 14-14-14"><p>07</p></div><div class="box 14-14-14"><p>08</p></div><div class="box 14-14-14"><p>09</p></div><div class="box 14-14-14"><p>10</p></div><div class="box 14-14-14"><p>11</p></div><div class="box 14-14-14"><p>12</p></div><div class="box 14-14-14"><p>13</p></div><div class="box 14-14-14"><p>14</p></div><div class="box 14-14-14"><p>15</p></div><div class="box 14-14-14"><p>16</p></div><div class="box 14-14-14"><p>17</p></div><div class="box 14-14-14"><p>18</p></div><div class="box 14-14-14"><p>19</p></div><div class="box 14-14-14"><p>20</p></div><div class="box 14-14-14"><p>21</p></div><div class="box 14-14-14"><p>22</p></div><div class="box 14-14-14"><p>23</p></div><div class="box 14-14-14"><p>24</p></div><div class="box 14-14-14"><p>25</p></div><div class="box 14-14-14"><p>26</p></div><div class="box 14-14-14"><p>27</p></div><div class="box 14-14-14"><p>28</p></div><div class="box 14-14-14"><p>29</p></div><div class="box 14-14-14"><p>30</p></div><div class="box 14-14-14"><p>31</p></div></div></div></div></div></div>');
+					el.append('<div class="box-fx"><div class="calendar"><div class="calendarHead"><div><a class="cPrevMonth">&#10096;&#10096;</a><p class="cMonth">JANUARY</p><a class="cNextMonth">&#10097;&#10097;</a></div><div><a class="cPrevYear">&#10096;&#10096;</a><p class="cYear">2017</p><a class="cNextYear">&#10097;&#10097;</a></div></div><div class="calendarselector"><div class="calendarweek"><div class="grid-linear"><div class="box[14-14-14]"><p>Lun</p></div><div class="box[14-14-14]"><p>Mar</p></div><div class="box[14-14-14]"><p>Mer</p></div><div class="box[14-14-14]"><p>Gio</p></div><div class="box[14-14-14]"><p>Ven</p></div><div class="box[14-14-14]"><p>Sab</p></div><div class="box[14-14-14]"><p>Dom</p></div></div></div><div class="calendarDay"><div class="grid-linear"><div class="box[14-14-14]"><p>01</p></div><div class="box[14-14-14]"><p>02</p></div><div class="box[14-14-14]"><p>03</p></div><div class="box[14-14-14]"><p>04</p></div><div class="box[14-14-14]"><p>05</p></div><div class="box[14-14-14]"><p>06</p></div><div class="box[14-14-14]"><p>07</p></div><div class="box[14-14-14]"><p>08</p></div><div class="box[14-14-14]"><p>09</p></div><div class="box[14-14-14]"><p>10</p></div><div class="box[14-14-14]"><p>11</p></div><div class="box[14-14-14]"><p>12</p></div><div class="box[14-14-14]"><p>13</p></div><div class="box[14-14-14]"><p>14</p></div><div class="box[14-14-14]"><p>15</p></div><div class="box[14-14-14]"><p>16</p></div><div class="box[14-14-14]"><p>17</p></div><div class="box[14-14-14]"><p>18</p></div><div class="box[14-14-14]"><p>19</p></div><div class="box[14-14-14]"><p>20</p></div><div class="box[14-14-14]"><p>21</p></div><div class="box[14-14-14]"><p>22</p></div><div class="box[14-14-14]"><p>23</p></div><div class="box[14-14-14]"><p>24</p></div><div class="box[14-14-14]"><p>25</p></div><div class="box[14-14-14]"><p>26</p></div><div class="box[14-14-14]"><p>27</p></div><div class="box[14-14-14]"><p>28</p></div><div class="box[14-14-14]"><p>29</p></div><div class="box[14-14-14]"><p>30</p></div><div class="box[14-14-14]"><p>31</p></div></div></div></div></div></div>');
 
 					btnType = "date";
 					el.click(function(){
@@ -922,7 +939,7 @@ var kimera = (function kimera() {
 						{
 
 							//adapting...
-							el.attr("style","width: auto; height:100%; position:absolute;");
+							el.attr("style","max-width: 99999999px !important; width:auto !important; min-width:100%; height:100%;");
 
 							//reCheck
 							iW = parseInt( el.outerWidth() );
@@ -1194,10 +1211,6 @@ var kimera = (function kimera() {
 			el.parent().css({overflow:"hidden"});
 
 
-			// center video
-			el.css({"top" : parseInt((wHeight-vHeight)/2)+"px"});
-
-
 			// add autoplay and loop
 			if (!el.attr('autoplay') || !el.attr('loop')) {
 				alert('OPS!\n\nSorry, you wrong!\non: video fullscreen -> missing attributes: "autoplay","loop"... "muted" is optional');
@@ -1226,44 +1239,27 @@ var kimera = (function kimera() {
 
 
 			//centering video
-			el.attr("style","width:100%; height:auto;");
+			el.attr("style","max-height:auto; height:auto; width:100%;");
 
-			var vid_H = parseInt( el.height() ),
-				vid_W = parseInt( el.width() ),
-				par_H = parseInt( el.parent().width() ),
-				par_W = parseInt( el.parent().width() ),
+			var vid_H = parseInt( el.outerHeight() ),
+				par_H = parseInt( el.parent().height() ),
 				nm = 0;
 
-			if(vid_H<par_H)
-			{
-
-				//adapting...
-				el.attr("style","max-width:auto; width:auto; min-width:100%; height:auto;");
-
-				//set it...
-				vid_W = el.width(),
-				nm = parseInt( ((vid_W-par_W)/2)*-1 ),
-				el.css({left: nm});
-
-			}
-
-			else if(vid_W<=par_W)
-			{
-				//adapting...
-				el.attr("style","max-height:auto; height:auto; min-height:100%; width:100%;");
-
-				//set it...
-				vid_H = el.height(),
-				nm = parseInt( ((vid_H-par_H)/2)*-1 ),
-				el.css({top: nm});
-			}
-
-			else
-			{
-				alert("[ !! ] Kimera debug:\n\nError on video background system!\nCentering failed or error");
-			}
-
-
+				if(vid_H>=par_H)
+				{
+					el.attr("style","max-height:auto; height:auto; min-height:100%; width:100%;");
+					vid_H = el.height(),
+					nm = parseInt( (vid_H-par_H)/2 );
+					el.attr("style","position: absolute; max-height:auto; height:auto; min-height:100%; width:100%; top: -"+nm+"px");
+				}
+				else
+				{
+					el.attr("style","height:100%; width:auto; min-width:100%;");
+					var vid_W = parseInt( el.outerWidth() ),
+						par_W = parseInt( el.parent().width() );
+					nm = parseInt( (vid_W-par_W)/2 );
+					el.attr("style","position: absolute; height:100%; width:auto; min-width:100%; left: -"+nm+"px");
+				}
 
 		});
 
@@ -1704,6 +1700,43 @@ var kimera = (function kimera() {
 
 
 
+	/*
+	// over scroll
+	*/
+
+
+
+
+	$(window).resizeDone(function() { overscroll(); });
+	$(window).on("load", function() { overscroll(); });
+
+	function overscroll(){
+
+		$("table, pre, code").each(function(){
+
+			var el = $(this),
+				tw = parseInt( el.outerWidth() ),
+				pw = parseInt( el.parent().width() );
+
+
+			if(tw > pw+1 && !el.parent().hasClass("scroll-horizontal"))
+			{
+				el.wrap('<div class="scroll-horizontal"/>');
+			}
+			else if(tw <= pw)
+			{
+				if(el.parent().hasClass("scroll-horizontal"))
+				{
+					el.unwrap();
+				}
+			}
+
+		});
+
+	};
+
+
+
 
 	/*
 	// anchor sliding
@@ -1753,6 +1786,78 @@ var kimera = (function kimera() {
 		});
 
 	});
+
+
+
+	/*
+	// achor copy
+	*/
+
+
+
+	$(document).on('click', '.anchorcopy', function()
+	{
+
+		var Name = $(this).children("a").attr("name");
+		var Url = window.location;
+		var	ancorcopy = String(Url+"#"+Name);
+
+		var $temp = $("<textarea>");
+		$("body").append($temp);
+		$temp.val(ancorcopy).select();
+		document.execCommand("copy");
+		$temp.remove();
+
+		alert("link copied");
+
+	});
+
+
+
+	/*
+	// collapser
+	*/
+
+
+
+	$.fn.slideFadeToggle  = function(speed, easing, callback) { return this.animate({opacity: 'toggle', height: 'toggle'}, speed, easing, callback); }; 
+	$(document).on('click', '.collapser', function() {
+
+		var content = $(this).closest(".panel").find(".panel-content");
+		content.slideFadeToggle(750);
+
+	});
+
+
+
+	/*
+	// code copy
+	*/
+
+
+
+	$(document).ready(function()
+	{
+
+		$("code").wrap('<div class="box-code"/>');
+		$(".box-code").append('<span class="copycode"/>');
+
+	});
+
+	$(document).on('click', '.copycode', function()
+	{
+
+		var $temp = $("<textarea>");
+		var brRegex = /<br\s*[\/]?>/gi;
+		$("body").append($temp);
+		$temp.val($(this).parent().children("code").text().replace(brRegex, "\r\n")).select();
+		document.execCommand("copy");
+		$temp.remove();
+
+		alert("Copied");
+
+	});
+
 
 
 	/*
