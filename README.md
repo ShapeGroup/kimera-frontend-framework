@@ -5,8 +5,11 @@
 Kimera 2.x is a simple and alternative front-end web design framework.
 
 
-> [Quick Wiki Class](https://github.com/ShapeGroup/Kimera-css-framework-2.X/wiki/wiki-classes "Quick Wiki Class") | 
-> [Facebook Fanpage](https://www.facebook.com/KimeraFramework/ "fanpage") | 
+![](https://scontent-mxp1-1.xx.fbcdn.net/v/t1.0-9/36825349_2069181723323623_5071070102590324736_n.jpg?_nc_cat=100&_nc_ht=scontent-mxp1-1.xx&oh=daf4018e7e24f6c9452bf510ded55c24&oe=5C732808)
+
+
+> [Quick Wiki Class](https://github.com/ShapeGroup/Kimera-css-framework-2.X/wiki/wiki-classes "Quick Wiki Class")
+> [Facebook Fanpage](https://www.facebook.com/KimeraFramework/ "fanpage")
 > [Official Site - under costruction](xxx "Official Website")
 
 &nbsp;
@@ -25,8 +28,7 @@ Kimera 2.x is a simple and alternative front-end web design framework.
 - integrated dynamic Ui system;
 - full elastic design;
 - full expandible;
-- No aggressive css & html pre-packaged...
-The designer is you.
+- No aggressive pre-packaged... The designer is you.;
 &nbsp;
 ---
 &nbsp;
@@ -40,17 +42,17 @@ _stay tuned for update_
 &nbsp;
 ---
 &nbsp;
-#### Main structure:
+### Main structure:
 &nbsp;
 Head:
 	
 	<head>
 
-		<!-- MOBILE META -->
-		<meta name="viewport" content="width=device-width, initial-scale=0.8, minimum-scale=0.8, maximum-scale=1.5, user-scalable=yes, minimal-ui">
-		<meta name="apple-mobile-web-app-status-bar-style" content="#231932">
+		<!-- METATAG -->
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 		<meta name="apple-mobile-web-app-capable" content="yes">
-		<meta name="mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 
 
 		<!-- load kimera 2.0 -->
