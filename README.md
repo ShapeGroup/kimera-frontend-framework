@@ -11,7 +11,7 @@
 
 Kimera 2.5.X is a simple and alternative frontend framework based on css, html5 and javascript.
 
-[WiKiZONE](https://github.com/ShapeGroup/rora-js) | [FANPAGE](https://www.facebook.com/KimeraFramework/) | 
+[WiKiZONE](https://github.com/ShapeGroup/kimera-frontend-framework/wiki/WIKI-ZONE) | [FANPAGE](https://www.facebook.com/KimeraFramework/) | 
 
 &nbsp;
 ---
@@ -21,17 +21,17 @@ Kimera 2.5.X is a simple and alternative frontend framework based on css, html5 
 - Viewport type;
 - Outbox and modal
 - Clear class nomenclature;
-- Supported all native html5 tags;
-- Compatible with all major browsers;
-- Compatible with cordova (ios under testing);
-- Compatible with electron (under costruction);
+- Supported all native html5 tags, css and js;
+- Compatible with all major browsers and php habitat;
+- Compatible with cordova app (ios under testing);
+- Compatible with electron software (under costruction);
 - Full percentage grids and directly compatible with native html5 tags (direct layout);
 - Full elastic layout and fit-elements design concept;
 - Themifized & flanked to less (node, js & php);
 - Integrated dynamic Ui system;
 - Integrated loader system (page to page);
 - Integrated built-in effects (parallax, other);
-- Integrated custom effector system (page to page; elements, other);
+- Integrated custom effector system (click, scroll, elements, other);
 
 
 &nbsp;
@@ -47,7 +47,7 @@ Kimera 2.5.X is a simple and alternative frontend framework based on css, html5 
 
 Dev compatibility:
 
-HTML5 | JS | JQUERY [deprecated but compatible] | NODE | PHP | ANGULAR, REACT, ELECTRON (undertest)
+HTML5 | JS | JQUERY [deprecated] | RORAjs [deprecated]| NODE | PHP | ANGULAR, REACT, ELECTRON (undertest)
 
 
 ---
