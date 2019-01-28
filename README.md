@@ -18,13 +18,13 @@ Kimera 2.5.X is a simple and alternative frontend framework based on css, html5 
 &nbsp;
 ### Features
 
-- Viewport type;
-- Outbox and modal
-- Clear class nomenclature;
 - Supported all native html5 tags, css and js;
 - Compatible with all major browsers and php habitat;
 - Compatible with cordova app (ios under testing);
 - Compatible with electron software (under costruction);
+- Different viewport type (web \ app \ software views);
+- Outbox and modal
+- Clear class nomenclature;
 - Full percentage grids and directly compatible with native html5 tags (direct layout);
 - Full elastic layout and fit-elements design concept;
 - Themifized & flanked to less (node, js & php);
