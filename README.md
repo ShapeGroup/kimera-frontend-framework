@@ -6,13 +6,12 @@
 # WELCOME TO KIMERA V.2.5.X
 
 &nbsp;
-**Hello! Github page under update... please wait a few days!**
+**Hello! Github pages under update... please wait a few days!**
 &nbsp;
 
 Kimera 2.5.X is a simple and alternative front-end design framework based on css, html5 and javascript.
 
-> [Quick Wiki Class](https://github.com/ShapeGroup/Kimera-css-framework-2.X/wiki/wiki-classes "Quick Wiki Class")
-> [Facebook Fanpage](https://www.facebook.com/KimeraFramework/ "fanpage")
+[WiKiZONE](https://github.com/ShapeGroup/rora-js) | [FANPAGE](https://www.facebook.com/KimeraFramework/) | 
 
 &nbsp;
 ---
@@ -21,7 +20,7 @@ Kimera 2.5.X is a simple and alternative front-end design framework based on css
 
 - Viewport type;
 - Outbox and modal
-- clear class nomenclature;
+- Clear class nomenclature;
 - Supported all native html5 tags;
 - Compatible with all major browsers;
 - Compatible with cordova (ios under testing);
