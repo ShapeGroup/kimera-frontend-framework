@@ -9,7 +9,7 @@
 **Hello! Github pages under update... please wait a few days!**
 &nbsp;
 
-Kimera 2.5.X is a simple and alternative front-end design framework based on css, html5 and javascript.
+Kimera 2.5.X is a simple and alternative frontend framework based on css, html5 and javascript.
 
 [WiKiZONE](https://github.com/ShapeGroup/rora-js) | [FANPAGE](https://www.facebook.com/KimeraFramework/) | 
 
@@ -26,12 +26,13 @@ Kimera 2.5.X is a simple and alternative front-end design framework based on css
 - Compatible with cordova (ios under testing);
 - Compatible with electron (under costruction);
 - Full percentage grids and directly compatible with native html5 tags (direct layout);
-- Full elastic design;
+- Full elastic layout and fit-elements design concept;
 - Themifized & flanked to less (node, js & php);
 - Integrated dynamic Ui system;
 - Integrated loader system (page to page);
 - Integrated built-in effects (parallax, other);
 - Integrated custom effector system (page to page; elements, other);
+
 
 &nbsp;
 ---
@@ -40,6 +41,14 @@ Kimera 2.5.X is a simple and alternative front-end design framework based on css
 &nbsp;
 
 ![](https://i.imgur.com/HhLl2Ct.jpg)
+
+---
+
+
+Dev compatibility:
+
+HTML5 | JS | JQUERY [deprecated but compatible] | NODE | PHP | ANGULAR, REACT, ELECTRON (undertest)
+
 
 ---
 
