@@ -30,8 +30,8 @@ Kimera 2.5.X is a simple and alternative frontend framework based on css, html5 
 - Themifized & flanked to less (node, js & php);
 - Integrated dynamic Ui system;
 - Integrated loader system (page to page);
-- Integrated built-in effects (parallax, other);
 - Integrated custom effector system (click, scroll, elements, other);
+- built-in effects (parallax, other);
 
 
 &nbsp;
