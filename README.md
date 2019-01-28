@@ -35,5 +35,13 @@ Kimera 2.5.X is a simple and alternative front-end design framework based on css
 
 &nbsp;
 ---
+
+
 &nbsp;
+
+_Testing status_
+![](https://i.imgur.com/Alj7Y8V.jpg)
+
+---
+
 Creators link @ShapeGroup
