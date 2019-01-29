@@ -12,11 +12,15 @@ Kimera 2.5.X is a simple and alternative frontend framework based on css, html5 
 The aim of this work, shared free under the GNU license, is to generate a ready-to-use development kit for interfaces and designs that are pre-designed for cross-platform and quick-change projects.
 We invite you to read the API for every detail on the classes and systems of the framwork.
 
-[[WiKiZONE](https://github.com/ShapeGroup/kimera-frontend-framework/wiki/WIKI-ZONE) | [FANPAGE](https://www.facebook.com/KimeraFramework/) | ...]
+&nbsp;
+
+[ [DEPLOY]() | [HOW TO START]() | [WiKiZONE](https://github.com/ShapeGroup/kimera-frontend-framework/wiki/WIKI-ZONE) | [FANPAGE](https://www.facebook.com/KimeraFramework/) | ...]
+
 
 &nbsp;
 ---
 &nbsp;
+
 ### Features
 
 - Based on web languages (html5, css, pure js);
