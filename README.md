@@ -1,7 +1,7 @@
 ![kimera vision 2.5.X // Gapkit project beta](https://github.com/ShapeGroup/kimera-frontend-framework)
 
 
-![](https://i.imgur.com/Ge9C7OG.jpg)
+![](https://i.imgur.com/bHkSWTd.jpg)
 
 # WELCOME TO KIMERA V.2.5.X
 
