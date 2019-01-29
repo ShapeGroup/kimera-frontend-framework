@@ -14,7 +14,7 @@ We invite you to read the API for every detail on the classes and systems of the
 
 &nbsp;
 
-[ [DEPLOY]() | [HOW TO START]() | [API\CLASS](https://github.com/ShapeGroup/kimera-frontend-framework/wiki/WIKI-ZONE) | [THEME GUIDELINE]() | [BLUEPRINT]() | [FANPAGE](https://www.facebook.com/KimeraFramework/) | ...]
+[ [DEPLOY]() | [HOW TO USE](https://github.com/ShapeGroup/kimera-frontend-framework/wiki/INSTALL-%5C-BASIC-VIEWS) | [API\CLASS](https://github.com/ShapeGroup/kimera-frontend-framework/wiki/WIKI-ZONE) | [THEME GUIDELINE]() | [BLUEPRINT]() | [FANPAGE](https://www.facebook.com/KimeraFramework/) | ...]
 
 
 &nbsp;
