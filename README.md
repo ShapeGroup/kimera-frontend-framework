@@ -1,4 +1,4 @@
-![kimera vision 2.5.X // Gapkit project beta](https://github.com/ShapeGroup/kimera-frontend-framework)
+![Gapkit project beta](https://github.com/ShapeGroup/kimera-frontend-framework/projects)
 
 
 ![](https://i.imgur.com/bHkSWTd.jpg)
@@ -6,10 +6,11 @@
 # WELCOME TO KIMERA V.2.5.X
 
 &nbsp;
-**Hello! Github pages under update... please wait a few days!**
-&nbsp;
 
 Kimera 2.5.X is a simple and alternative frontend framework based on css, html5 and javascript.
+
+The aim of this work, shared free under the GNU license, is to generate a ready-to-use development kit for interfaces and designs that are pre-designed for cross-platform and quick-change projects.
+We invite you to read the API for every detail on the classes and systems of the framwork.
 
 [[WiKiZONE](https://github.com/ShapeGroup/kimera-frontend-framework/wiki/WIKI-ZONE) | [FANPAGE](https://www.facebook.com/KimeraFramework/) | ...]
 
@@ -47,7 +48,7 @@ Kimera 2.5.X is a simple and alternative frontend framework based on css, html5 
 
 Dev compatibility:
 
-HTML5 | JS | JQUERY [deprecated] | RORAjs [deprecated]| NODE | PHP | ANGULAR, REACT, ELECTRON (undertest)
+HTML5 | JS | JQUERY [deprecated] | RORAjs [deprecated] | NODE | PHP | ANGULAR, REACT, ELECTRON [undertest]
 
 
 ---
