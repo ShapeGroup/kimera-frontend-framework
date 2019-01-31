@@ -14,7 +14,7 @@ We invite you to read the API for every detail on the classes and systems of the
 
 &nbsp;
 
-[ [DEPLOY]() | [INSTALL](https://github.com/ShapeGroup/kimera-frontend-framework/wiki/API-::-INSTALL) | [VIEWPORT](https://github.com/ShapeGroup/kimera-frontend-framework/wiki/API-::-VIEWPORTS) | [CLASSES](https://github.com/ShapeGroup/kimera-frontend-framework/wiki/API-::-CLASSES) | [EFFECTOR](https://github.com/ShapeGroup/kimera-frontend-framework/wiki/API-::-EFFECTOR) | [THEME DEV]() | [BLUEPRINT]() | [FANPAGE](https://www.facebook.com/KimeraFramework/) | ...]
+[ [DEPLOY]() | [INSTALL](https://github.com/ShapeGroup/kimera-frontend-framework/wiki/API-::-INSTALL) | [VIEWPORT](https://github.com/ShapeGroup/kimera-frontend-framework/wiki/API-::-VIEWPORTS) | [CLASSES](https://github.com/ShapeGroup/kimera-frontend-framework/wiki/API-::-CLASSES) | [EFFECTOR](https://github.com/ShapeGroup/kimera-frontend-framework/wiki/API-::-EFFECTOR) | [THEME DEV](https://github.com/ShapeGroup/kimera-frontend-framework/wiki/GL-::-THEME) | [BLUEPRINT]() | [FANPAGE](https://www.facebook.com/KimeraFramework/) | ...]
 
 
 &nbsp;
