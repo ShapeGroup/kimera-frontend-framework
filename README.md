@@ -9,7 +9,7 @@
 
 Kimera 2.5.X is a simple and alternative frontend framework based on css, html5 and javascript.
 
-The aim of this work, shared free under the GNU license, is to generate a ready-to-use development kit for interfaces and designs that are pre-designed for cross-platform and quick-change projects.
+The aim of this work, shared free under the [GNU license](https://github.com/ShapeGroup/kimera-frontend-framework/blob/master/LICENSE), is to generate a ready-to-use development kit for interfaces and designs that are pre-designed for cross-platform and quick-change projects.
 We invite you to read the API for every detail on the classes and systems of the framwork.
 
 &nbsp;
@@ -52,7 +52,7 @@ We invite you to read the API for every detail on the classes and systems of the
 
 Dev compatibility:
 
-HTML5 | JS | JQUERY [deprecated] | RORAjs [deprecated] | NODE | PHP | CORDOVA | ANGULAR, REACT, ELECTRON [undertest]
+HTML5 | +CSS3 | PURE JS +ECMA6 | JQUERY [compatible but deprecated] | RORAjs [deprecated] | NODE | PHP | CORDOVA | ANGULAR [partial tested], REACT [notest], ELECTRON [undercostruction]
 
 
 ---
