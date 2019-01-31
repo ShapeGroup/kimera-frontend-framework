@@ -1,5 +1,0 @@
-
-
-	BASIC: KIMERA 2.0 THEME
-
-	Create your theme with image, fonts, icons and other into this folder...
