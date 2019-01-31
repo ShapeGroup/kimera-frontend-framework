@@ -14,7 +14,14 @@ We invite you to read the API for every detail on the classes and systems of the
 
 &nbsp;
 
-[ [DEPLOY](https://github.com/ShapeGroup/kimera-frontend-framework/tree/master/deployed) | [INSTALL](https://github.com/ShapeGroup/kimera-frontend-framework/wiki/API-::-INSTALL) | [VIEWPORT](https://github.com/ShapeGroup/kimera-frontend-framework/wiki/API-::-VIEWPORTS) | [CLASSES](https://github.com/ShapeGroup/kimera-frontend-framework/wiki/API-::-CLASSES) | [EFFECTOR](https://github.com/ShapeGroup/kimera-frontend-framework/wiki/API-::-EFFECTOR) | [THEME DEV](https://github.com/ShapeGroup/kimera-frontend-framework/wiki/GL-::-THEME) | [BLUEPRINT]() | [FANPAGE](https://www.facebook.com/KimeraFramework/) | ...]
+If you like this project, you would like to click on the ★ above this page<br />
+and follow us on the official fanpage: [kimera framework](https://www.facebook.com/KimeraFramework/)
+
+
+
+&nbsp;
+
+[ [DEPLOY](https://github.com/ShapeGroup/kimera-frontend-framework/tree/master/deployed) | [INSTALL](https://github.com/ShapeGroup/kimera-frontend-framework/wiki/API-::-INSTALL) | [VIEWPORT](https://github.com/ShapeGroup/kimera-frontend-framework/wiki/API-::-VIEWPORTS) | [CLASSES](https://github.com/ShapeGroup/kimera-frontend-framework/wiki/API-::-CLASSES) | [EFFECTOR](https://github.com/ShapeGroup/kimera-frontend-framework/wiki/API-::-EFFECTOR) | [THEME DEV](https://github.com/ShapeGroup/kimera-frontend-framework/wiki/GL-::-THEME) | [BLUEPRINT]() | [COMMUNITY](https://www.facebook.com/pg/KimeraFramework/community/) | ...]
 
 
 &nbsp;
