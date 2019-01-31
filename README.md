@@ -1,7 +1,7 @@
 ![Gapkit project beta](https://github.com/ShapeGroup/kimera-frontend-framework/projects)
 
 
-![](https://i.imgur.com/IwSA4lm.jpg)
+![](https://raw.githubusercontent.com/ShapeGroup/kimera-frontend-framework/master/storage/mainbanner.jpg)
 
 # WELCOME TO KIMERA V.2.5.X
 
@@ -45,7 +45,7 @@ We invite you to read the API for every detail on the classes and systems of the
 
 &nbsp;
 
-![](https://i.imgur.com/6zYNu2n.png)
+![](https://raw.githubusercontent.com/ShapeGroup/kimera-frontend-framework/master/storage/generaltester.jpg)
 
 ---
 
