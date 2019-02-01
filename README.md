@@ -20,7 +20,7 @@ and follow us on the official fanpage: [kimera framework](https://www.facebook.c
 
 &nbsp;
 
-[ [DEPLOY](https://github.com/ShapeGroup/kimera-frontend-framework/tree/master/deployed) | [INSTALL](https://github.com/ShapeGroup/kimera-frontend-framework/wiki/API-::-INSTALL) | [VIEWPORT](https://github.com/ShapeGroup/kimera-frontend-framework/wiki/API-::-VIEWPORTS) | [CLASSES](https://github.com/ShapeGroup/kimera-frontend-framework/wiki/API-::-CLASSES) | [UI ASSET](https://github.com/ShapeGroup/kimera-frontend-framework/wiki/API-::-UI-ASSET) | [EFFECTOR](https://github.com/ShapeGroup/kimera-frontend-framework/wiki/API-::-EFFECTOR) | [THEME DEV](https://github.com/ShapeGroup/kimera-frontend-framework/wiki/GL-::-THEME) | [BLUEPRINT](https://github.com/ShapeGroup/kimera-frontend-framework/tree/master/blueprint) ]
+[ [DEPLOY](https://github.com/ShapeGroup/kimera-frontend-framework/tree/master/deployed) | [INSTALL](https://github.com/ShapeGroup/kimera-frontend-framework/wiki/API-::-INSTALL) | [VIEWPORT](https://github.com/ShapeGroup/kimera-frontend-framework/wiki/API-::-VIEWPORTS) | [CLASSES](https://github.com/ShapeGroup/kimera-frontend-framework/wiki/API-::-CLASSES) | [UI ASSET](https://github.com/ShapeGroup/kimera-frontend-framework/wiki/API-::-UI-ASSET) | [EFFECTOR](https://github.com/ShapeGroup/kimera-frontend-framework/wiki/API-::-EFFECTOR) | [THEME DEV](https://github.com/ShapeGroup/kimera-frontend-framework/wiki/GL-::-THEME) | [BLUEPRINT](https://github.com/ShapeGroup/kimera-frontend-framework/tree/master/blueprint) ] 
 
 
 &nbsp;
