@@ -1,7 +1,7 @@
 ![Gapkit project beta](https://github.com/ShapeGroup/kimera-frontend-framework/projects)
 
 
-![](https://raw.githubusercontent.com/ShapeGroup/kimera-frontend-framework/master/storage/mainbanner.jpg)
+![](https://raw.githubusercontent.com/ShapeGroup/kimera-frontend-framework/master/depot/mainbanner.jpg)
 
 # WELCOME TO KIMERA V.2.5.X
 
@@ -51,14 +51,14 @@ and follow us on the official fanpage: [kimera framework](https://www.facebook.c
 
 &nbsp;
 
-![](https://raw.githubusercontent.com/ShapeGroup/kimera-frontend-framework/master/storage/generaltester.jpg)
+![](https://raw.githubusercontent.com/ShapeGroup/kimera-frontend-framework/master/depot/generaltester.jpg)
 
 ---
 
 
 Dev compatibility:
 
-[![style: styled-components](https://raw.githubusercontent.com/ShapeGroup/kimera-frontend-framework/master/storage/testericon.angular.jpg)](https://angular.io/)  [![style: styled-components](https://raw.githubusercontent.com/ShapeGroup/kimera-frontend-framework/master/storage/testericon.cordova.jpg)](https://cordova.apache.org/)  [![style: styled-components](https://raw.githubusercontent.com/ShapeGroup/kimera-frontend-framework/master/storage/testericon.css3.jpg)](https://developer.mozilla.org/en-US/docs/Web/CSS)  [![style: styled-components](https://raw.githubusercontent.com/ShapeGroup/kimera-frontend-framework/master/storage/testericon.electron.jpg)](https://electronjs.org/)  [![style: styled-components](https://raw.githubusercontent.com/ShapeGroup/kimera-frontend-framework/master/storage/testericon.html5.jpg)](https://developer.mozilla.org/en-US/docs/Web/HTML)  [![style: styled-components](https://raw.githubusercontent.com/ShapeGroup/kimera-frontend-framework/master/storage/testericon.includer.jpg)](https://github.com/ShapeGroup)  [![style: styled-components](https://raw.githubusercontent.com/ShapeGroup/kimera-frontend-framework/master/storage/testericon.jquery.jpg)](https://jquery.com/)  [![style: styled-components](https://raw.githubusercontent.com/ShapeGroup/kimera-frontend-framework/master/storage/testericon.nodejs.jpg)](https://nodejs.org/)  [![style: styled-components](https://raw.githubusercontent.com/ShapeGroup/kimera-frontend-framework/master/storage/testericon.php.jpg)](http://www.wampserver.com)  [![style: styled-components](https://raw.githubusercontent.com/ShapeGroup/kimera-frontend-framework/master/storage/testericon.purejs.jpg)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)  [![style: styled-components](https://raw.githubusercontent.com/ShapeGroup/kimera-frontend-framework/master/storage/testericon.react.jpg)](https://reactjs.org/)  [![style: styled-components](https://raw.githubusercontent.com/ShapeGroup/kimera-frontend-framework/master/storage/testericon.rora.jpg)](https://github.com/ShapeGroup/rora-js)
+[![style: styled-components](https://raw.githubusercontent.com/ShapeGroup/kimera-frontend-framework/master/depot/testericon.angular.jpg)](https://angular.io/)  [![style: styled-components](https://raw.githubusercontent.com/ShapeGroup/kimera-frontend-framework/master/depot/testericon.cordova.jpg)](https://cordova.apache.org/)  [![style: styled-components](https://raw.githubusercontent.com/ShapeGroup/kimera-frontend-framework/master/depot/testericon.css3.jpg)](https://developer.mozilla.org/en-US/docs/Web/CSS)  [![style: styled-components](https://raw.githubusercontent.com/ShapeGroup/kimera-frontend-framework/master/depot/testericon.electron.jpg)](https://electronjs.org/)  [![style: styled-components](https://raw.githubusercontent.com/ShapeGroup/kimera-frontend-framework/master/depot/testericon.html5.jpg)](https://developer.mozilla.org/en-US/docs/Web/HTML)  [![style: styled-components](https://raw.githubusercontent.com/ShapeGroup/kimera-frontend-framework/master/depot/testericon.includer.jpg)](https://github.com/ShapeGroup)  [![style: styled-components](https://raw.githubusercontent.com/ShapeGroup/kimera-frontend-framework/master/depot/testericon.jquery.jpg)](https://jquery.com/)  [![style: styled-components](https://raw.githubusercontent.com/ShapeGroup/kimera-frontend-framework/master/depot/testericon.nodejs.jpg)](https://nodejs.org/)  [![style: styled-components](https://raw.githubusercontent.com/ShapeGroup/kimera-frontend-framework/master/depot/testericon.php.jpg)](http://www.wampserver.com)  [![style: styled-components](https://raw.githubusercontent.com/ShapeGroup/kimera-frontend-framework/master/depot/testericon.purejs.jpg)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)  [![style: styled-components](https://raw.githubusercontent.com/ShapeGroup/kimera-frontend-framework/master/depot/testericon.react.jpg)](https://reactjs.org/)  [![style: styled-components](https://raw.githubusercontent.com/ShapeGroup/kimera-frontend-framework/master/depot/testericon.rora.jpg)](https://github.com/ShapeGroup/rora-js)
 
 
 ---
