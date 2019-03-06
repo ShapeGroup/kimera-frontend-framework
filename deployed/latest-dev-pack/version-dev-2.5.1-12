@@ -1,0 +1,33 @@
+
+2.5.1-12 | Release Notes:
+
+Core.js: first step of collective action into the core
+- cross action upgrade... click, drag, and touch manager for different type of elements
+- snapscroll not draggable whit mouse click
+
+Interface:
+  - snapscroll have now a time for autostart
+
+Ui system:
+- Ui is now in expandible wrap
+- Update buttons .before & .after (icon-before,icon and icon-after is now deprecated)
+- button-select ugrapde (fix cross browser compatibility)
+- new button-file (now you can upload multilpe file whit list view and different type of check)
+- new button-number (now it's scrollable and dynamic)
+- new button-range (now dynamic, multiple range, and cross browser)
+- button-time (first concept)
+- button-date upgrade
+  - a little graphics fix on the "notdays"
+  - simplifyed and rettification of codes
+  - introduced UTC/EUR weekday option (UTC internation weekdaystart, EUR European type)
+  - introduced different types of output format (ex: DMY = Day/Mounth/Year)
+  - now the day remains fixed even if you change month and year
+  - now system check if the first and last line of day is empty and delete it
+
+
+Bug fixing:
+- fixed glitch of tabs-y animation
+- fixed the problem on the blocking of sudden actions, from now on some functions are kept under control and are restarted to the change of the dom elements
+- auto scroll-x on table, code, etc, stop only if necessary (now is based on min-width)
+- other minor little fix on core system
+- other fixing only for edge browser
