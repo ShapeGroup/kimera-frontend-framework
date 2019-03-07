@@ -1,0 +1,68 @@
+
+2.5.0-b | Release Notes:
+
+Core.js
+- from jquery to native javascript
+- introduced a format with adjustable sets
+
+Core.css
+- new reset
+- different fixing type
+- rectification of nomenclatures (now all have a "-" / (space[xx] to space-[xx]))
+
+Viewport-web (ex canvas-type)
+- introduced a viewport web sistem for css/js assets
+- first test on edge, mozilla, chrome and other webkit compatible browsers
+
+Viewport-app (ex canvas-type)
+- introduced a viewport web sistem for css/js assets
+- first test on android device
+- firefox/chrome debugger
+
+Loader
+- simplified loader. From today it is without ajax and directly describable in html
+- flickering glyph fix
+
+Update grid-x and grid-y + options classes
+- fixed negative margin errors
+- the grids are now based entirely on the flex system
+
+Pure css autocrop class with fill-object
+- from now the autocrop class is completely css
+
+Pure css ratio class
+- from now the Ratio class is completely css
+
+Fix & update video classes
+- some improvements have been made to the video classes
+
+Introduced scroll-x\y & hide-bar-x\y system
+- from now it is possible to manage horizontal layouts; it is possible to pass from the native scroll to a smooth one (but not on edge)
+- from now there is a specific class to hide the scroll bar
+
+Introduced a basic snap-scroll system
+- from now on there is the possibility of building self-scrollable boxes that are positioning sensitive to dragging
+
+New concept for outbox (ex off-canvas)
+- from now managed via much lighter script
+
+New text classes
+- from today it is possible to manage the texts thanks to a new system on the theme and the addition of the "text-group" and "period" classes
+
+First adjustment on the buttons
+- all the scripts have been converted to pure js and the css has been lightened
+- light version of the new checkboxes and radio buttons
+- first fix for the datepiker system, now working in its basic tasks
+- button-select on Edge fixed, from now online for the next versions and working on edge
+- other improvements and preparations for the next version
+
+New Fx system
+- we lightened the effects system by disconnecting it from the main structure.
+- from now, new options are available that will be expanded in subsequent versions
+- from now there will be some preset effects (in this version we released the parallax)
+
+Themes
+- from now based on less
+- introduced the elastic font (it's all elastic now)
+- introduced new logics for the theme structure
+- built the first basic theme
