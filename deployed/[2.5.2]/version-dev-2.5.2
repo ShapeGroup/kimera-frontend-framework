@@ -1,0 +1,40 @@
+
+2.5.2 | Release Notes:
+
+// Please! Create Issue for debug!
+
+// Scope of this update: adjustments to the previous version.
+
+Core.js: first step of collective action into the core;
+- fixed minify version;
+- fixed on:loadDoc - improved performance and stability;
+- fixed on:scroll - now work on body scroll and much type of situation;
+
+Core.css:
+- fixed minify version;
+- fixed grid 00 elements quesiton: use attr hide. Ex: box-[50-100-hide];
+- fixed space 00 elements quesiton: use attr none. Ex: space-[50-100-none];
+- fixed ipad grid cuts - now mobile is from 1024px limit;
+- fixed gbuboost - solved error on transform and filter animations;
+
+Interface:
+- snap have now a pause on mouse hover;
+- snap autosnap, now it stops at the last element with respect to the size of the container;
+- snap drift fixed -tips: make the height in px-;
+- snapgroup have a gap-XX for space;
+- snap drift error reduced;
+
+Ui system:
+- fixed Select optgroup label "null";
+- fixed button side-center overlay: From now it closes by clicking outside the box;
+- minor fix for neasted button and colors;
+
+
+Bug fixing:
+- fixed loader z-index -tips: include him on last of page-;
+- fixed outbox z-index -tips: include him before the loader-;
+- fixed img autocrop: now not based on flexbox -note: remember to write in px on container-;
+- fixed img autocrop: now respect the on- classes;
+- fixed on- : new css roles. Now have a new css sets roole and respect the mediaquery cuts;
+- fixed on- : new css roles. Now have a new css sets roole and have effect on autocrop class;
+- fixed on- : new css roles. Now have a new css sets roole and have effect on button classes;
