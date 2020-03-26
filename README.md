@@ -52,7 +52,7 @@ and follow us on the official fanpage: [kimera framework](https://www.facebook.c
 
 &nbsp;
 
-![](https://github.com/ShapeGroup/kimera-frontend-framework/blob/master/depot/generaltester.jpg)
+![](https://raw.githubusercontent.com/ShapeGroup/kimera-frontend-framework/master/depot/testerline.jpg)
 
 ---
 
