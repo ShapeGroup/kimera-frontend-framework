@@ -1,7 +1,7 @@
 ![Gapkit project beta](https://github.com/ShapeGroup/kimera-frontend-framework/projects)
 
 
-![](https://raw.githubusercontent.com/ShapeGroup/kimera-frontend-framework/master/depot/mainbanner.jpg)
+![](https://raw.githubusercontent.com/ShapeGroup/kimera-frontend-framework/master/depot/khead.jpg)
 
 # WELCOME TO KIMERA V.2.7.X
 
