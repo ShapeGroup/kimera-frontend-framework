@@ -3,11 +3,11 @@
 
 ![](https://raw.githubusercontent.com/ShapeGroup/kimera-frontend-framework/master/depot/mainbanner.jpg)
 
-# WELCOME TO KIMERA V.2.5.X
+# WELCOME TO KIMERA V.2.7.X
 
 &nbsp;
 
-Kimera 2.5.X is a simple and alternative frontend framework based on css, html5 and javascript.
+Kimera is a simple and alternative frontend framework based on css, html5 and javascript.
 
 The aim of this work, shared free under the [GNU license](https://github.com/ShapeGroup/kimera-frontend-framework/blob/master/LICENSE), is to generate a ready-to-use development kit for interfaces and designs that are thinked for cross-platform and easy to modding. We invite you to read the API for every detail on the classes and systems of the framework.
 
@@ -29,20 +29,21 @@ and follow us on the official fanpage: [kimera framework](https://www.facebook.c
 
 ### Features
 
-- Based on web languages (html5, css, pure js);
-- Compatible with all major browsers and php \ node habitat;
-- Compatible with cordova app (ios under testing);
-- Compatible with electron software (under testing);
+- Based on native web languages (html5, css, pure js);
+- Compatible with all major browsers node habitat and php habitat;
+- Compatible with cordova app;
+- Compatible with electron software (under develpment);
 - Different viewport type (web \ app \ desktop);
-- Outbox and modal;
+- Advanced outbox (modal and menu) system ;
 - Full elastic layout and fit-elements design concept;
 - Full percentage grids and directly compatible with native tags (direct layout);
-- Cross themifized & flanked to less;
+- Cross themifized & flanked to less (or other);
 - Integrated dynamic Ui system;
-- Integrated loader system (page to page);
+- Integrated loader system (page to page + spinner);
 - Integrated custom effector system (click, scroll, elements, other);
 - built-in effects (parallax, other);
-- and more...
+
+- [and more...](https://github.com/ShapeGroup/kimera-frontend-framework/wiki/Introduction)
 
 
 &nbsp;
