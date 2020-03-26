@@ -13,8 +13,9 @@ The aim of this work, shared free under the [GNU license](https://github.com/Sha
 
 &nbsp;
 
-If you like this project, you would like to click on the ★ above this page<br />
-and follow us on the official fanpage: [kimera framework](https://www.facebook.com/KimeraFramework/)
+If you like this project, we would like to have your appreciation: click on the ★ above this page and follow us on the official fanpage: [kimera framework](https://www.facebook.com/KimeraFramework/)
+
+
 
 
 
