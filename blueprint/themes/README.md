@@ -27,7 +27,12 @@ Basic package for guidelines and tests on the construction of a theme. [![DOWNLO
 
 ## BASIC TEST THEME (Kimera V 2.7)
 
+&nbsp;
+
 Basic package for guidelines and tests on the construction of a theme.
+
+&nbsp;
+
 ![](https://raw.githubusercontent.com/ShapeGroup/kimera-frontend-framework/master/blueprint/themes/velvet-2.7/themebanner.jpg)
 
 - VELVET :: [DOWNLOAD PHP THEME TEST](https://github.com/ShapeGroup/kimera-frontend-framework/raw/master/blueprint/themes/velvet-2.7/k-theme-phpexemple.zip)
