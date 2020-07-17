@@ -21,7 +21,7 @@ If you like this project, we would like to have your appreciation: click on the 
 
 &nbsp;
 
-[ [DEPLOY](https://github.com/ShapeGroup/kimera-frontend-framework/tree/master/deployed) | [INSTALL](https://github.com/ShapeGroup/kimera-frontend-framework/wiki/API-::-INSTALL) | [VIEWPORT](https://github.com/ShapeGroup/kimera-frontend-framework/wiki/API-::-VIEWS-TYPE) | [CLASSES](https://github.com/ShapeGroup/kimera-frontend-framework/wiki/API-::-CLASSES) | [UI ASSET](https://github.com/ShapeGroup/kimera-frontend-framework/wiki/API-::-UI-ASSET) | [EFFECTOR](https://github.com/ShapeGroup/kimera-frontend-framework/wiki/API-::-EFFECTOR) | [THEME DEV](https://github.com/ShapeGroup/kimera-frontend-framework/wiki/GL-::-THEME) | [BLUEPRINT](https://github.com/ShapeGroup/kimera-frontend-framework/tree/master/blueprint) ] 
+[ [DEPLOY](https://github.com/ShapeGroup/kimera-frontend-framework/tree/master/deployed) | [RELEASE](https://github.com/ShapeGroup/kimera-frontend-framework/tags) | [INSTALL](https://github.com/ShapeGroup/kimera-frontend-framework/wiki/API-::-INSTALL) | [VIEWPORT](https://github.com/ShapeGroup/kimera-frontend-framework/wiki/API-::-VIEWS-TYPE) | [CLASSES](https://github.com/ShapeGroup/kimera-frontend-framework/wiki/API-::-CLASSES) | [UI ASSET](https://github.com/ShapeGroup/kimera-frontend-framework/wiki/API-::-UI-ASSET) | [EFFECTOR](https://github.com/ShapeGroup/kimera-frontend-framework/wiki/API-::-EFFECTOR) | [THEME DEV](https://github.com/ShapeGroup/kimera-frontend-framework/wiki/GL-::-THEME) | [BLUEPRINT](https://github.com/ShapeGroup/kimera-frontend-framework/tree/master/blueprint) ] 
 
 
 &nbsp;
