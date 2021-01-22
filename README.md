@@ -1,4 +1,4 @@
-![Gapkit project beta](https://github.com/ShapeGroup/kimera-frontend-framework/projects)
+![Progress roadmap](https://github.com/ShapeGroup/kimera-frontend-framework/projects)
 
 
 ![](https://raw.githubusercontent.com/ShapeGroup/kimera-frontend-framework/master/depot/khead.jpg)
